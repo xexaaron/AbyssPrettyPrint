@@ -22,4 +22,5 @@ namespace aby::util {
 
     bool pretty_print(const std::string& str, const std::string& ctx = "", Colors colors = {});
 
+    std::size_t visual_width(const std::string& str);
 }

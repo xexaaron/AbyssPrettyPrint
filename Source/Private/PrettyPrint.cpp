@@ -142,5 +142,10 @@ namespace aby::util {
         return true;
     }   
 
+    std::size_t visual_width(const std::string& str) {
+        return str.size() - count_ansi_chars(str);
+    }
+
+
 
 }
