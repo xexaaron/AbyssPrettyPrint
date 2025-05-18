@@ -98,8 +98,6 @@ namespace aby::util {
         return { top, bottom };
     }
 
-
-
     std::string color_to_ansi(EColor color, bool bold) {
         std::string out_color = "\033[";
         if (bold) out_color.append("1;");
